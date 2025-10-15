@@ -1,2 +1,4 @@
 /backend/model/.env
 /upload_docs
+__pycache__
+
