@@ -5,7 +5,7 @@ from langchain_community.vectorstores import Pinecone
 from langchain.chains import create_retrieval_chain, RetrievalQA
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from dotenv import load_dotenv
-from backend.log import logger
+from log import logger
 import os
 
 load_dotenv()

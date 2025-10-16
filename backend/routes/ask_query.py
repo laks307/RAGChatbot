@@ -1,9 +1,9 @@
 from csv import excel
 from sys import exception
-from backend.model.vectordb import embed_query
-from backend.model.llm import invoke_chain
-from backend.model.query_handlers import query_chain
-from backend.log import logger
+from model.vectordb import embed_query
+from model.llm import invoke_chain
+from model.query_handlers import query_chain
+from log import logger
 from fastapi import APIRouter, Depends, HTTPException, Form
 from fastapi.responses import JSONResponse
 from langchain_google_genai import GoogleGenerativeAIEmbeddings

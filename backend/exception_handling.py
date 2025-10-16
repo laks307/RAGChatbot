@@ -1,7 +1,7 @@
 from fastapi import HTTPException, Request
 from fastapi.openapi.utils import status_code_ranges
 from fastapi.responses import JSONResponse
-from backend.log import logger
+from log import logger
 
 async def error_handling(request: Request, call_next):
     try:

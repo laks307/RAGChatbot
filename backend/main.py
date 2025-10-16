@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.exception_handling import error_handling
-from backend.routes.upload_docs import router as upload_docs
-from backend.routes.ask_query import router as ask_query
+from exception_handling import error_handling
+from routes.upload_docs import router as upload_docs
+from routes.ask_query import router as ask_query
 
 app = FastAPI(title = 'chatbot', description = 'chatbot using langchain, fastapi, streamlit')
 

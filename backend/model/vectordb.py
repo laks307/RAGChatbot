@@ -12,13 +12,13 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from tqdm import tqdm
-from backend.log import logger
+from log import logger
 from langchain_core.documents import Document
 from langchain.schema import BaseRetriever
-from backend.model.llm import invoke_chain
+from model.llm import invoke_chain
 
 from sqlalchemy.testing.suite.test_reflection import metadata
-from backend.log import logger
+# from log import logger
 
 load_dotenv()
 

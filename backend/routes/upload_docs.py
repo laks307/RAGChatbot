@@ -1,6 +1,6 @@
 from logging import exception
-from backend.log import logger
-from backend.model.vectordb import embed_docs
+from log import logger
+from model.vectordb import embed_docs
 from typing import List
 from fastapi import APIRouter, Depends, File, UploadFile, HTTPException
 

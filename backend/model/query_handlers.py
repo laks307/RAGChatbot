@@ -1,4 +1,4 @@
-from backend.log import logger
+from log import logger
 from fastapi import HTTPException
 
 def query_chain(chain, user_input: str):
