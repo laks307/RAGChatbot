@@ -1,7 +1,7 @@
-from multiprocessing.connection import answer_challenge
+# from multiprocessing.connection import answer_challenge
 
 import streamlit as st
-from pycparser.ply.yacc import resultlimit
+# from pycparser.ply.yacc import resultlimit
 
 from utils.api import ask_query
 
